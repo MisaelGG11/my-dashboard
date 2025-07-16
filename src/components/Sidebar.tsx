@@ -23,7 +23,7 @@ const menuItems = [
     subTitle: 'Pokemon with Static Generation',
   },
   {
-    path: '/dashboard/favoritos',
+    path: '/dashboard/pokemons/favorite',
     icon: <IoHeartCircleOutline size={32} />,
     title: 'Favorites',
     subTitle: 'Global State with Redux',

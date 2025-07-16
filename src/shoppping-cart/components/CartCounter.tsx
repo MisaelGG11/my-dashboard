@@ -17,7 +17,7 @@ const getAPIConuter = async (): Promise<CounterResponse> => {
 }
 
 
-export function CartCounter({ value = 0 }: { value?: number }) {
+export function CartCounter() {
   const counter = useAppSelector((state) => state.counter.value);
   const dispatch = useAppDispatch();
 

@@ -11,7 +11,7 @@ export default function CounterPage() {
       <span>Productos en el carrito</span>
       
 
-      <CartCounter value={ 20 } />
+      <CartCounter />
     </div>
   );
 }
